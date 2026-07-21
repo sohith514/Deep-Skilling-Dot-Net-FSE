@@ -5,10 +5,10 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Controllers
+
 builder.Services.AddControllers();
 
-// Swagger
+
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddSwaggerGen(options =>
@@ -45,7 +45,7 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
-// JWT Authentication
+
 
 var key = Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!);
 

@@ -4,13 +4,13 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container
+
 builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Configure JWT Authentication
+
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -33,7 +33,7 @@ builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
-// Configure HTTP request pipeline
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

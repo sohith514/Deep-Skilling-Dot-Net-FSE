@@ -16,4 +16,3 @@ namespace RetailInventory.Data
         }
     }
 }
-// LAB - 2
