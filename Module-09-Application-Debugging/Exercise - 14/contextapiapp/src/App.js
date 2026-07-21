@@ -3,7 +3,7 @@ import ComponentA from "./ComponentA";
 
 function App() {
 
-    const user = "Prahllad";
+    const user = "Sohith naidu";
 
     return (
 
