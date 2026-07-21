@@ -1,4 +1,3 @@
-// Completed by: Sohith naidu (Regd No: 231FA04514)
 import { Component } from '@angular/core';
 import { Header } from './components/header/header';
 import { Home } from './pages/home/home';
