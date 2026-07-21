@@ -1,4 +1,5 @@
-﻿// LAB - 5
+// LAB - 5
+// Student: Sohith naidu (Regd No: 231FA04514)
 /* using Microsoft.EntityFrameworkCore;
 using RetailInventory.Data;
 
